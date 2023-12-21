@@ -6,7 +6,7 @@ theme:
   font:
     code: Noto Serif SC
   features:
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.top
     - content.code.copy
     - navigation.footer
