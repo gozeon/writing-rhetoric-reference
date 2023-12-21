@@ -1,8 +1,10 @@
-site_name: xxx
-repo_url: https://github.com/gozeon/xxx
-repo_name: gozeon/xxx
+site_name: 写作辞林
+repo_url: https://github.com/gozeon/writing-rhetoric-reference
+repo_name: gozeon/writing-rhetoric-reference
 theme:
   name: material
+  font:
+    code: Noto Serif SC
   features:
     - navigation.tabs
     - navigation.top
@@ -29,6 +31,9 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/gozeonl
 
+extra_css:
+  - stylesheets/code.css
+  
 markdown_extensions:
   - pymdownx.caret
   - pymdownx.betterem
