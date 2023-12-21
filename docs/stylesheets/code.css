@@ -1,14 +1,15 @@
 article.md-content__inner p {
   word-spacing: 1em;
-  letter-spacing: 0.1em; word-wrap: break-word; /* 在单词内部进行断开 */
+  letter-spacing: 0.1em; 
+  word-wrap: break-word; /* 在单词内部进行断开 */
   overflow-wrap: break-word;
 }
 
 
 code {
     font-family: "Noto Serif SC";
-    font-size: 1em !important;
-    font-weight: 600;
+    font-size: 1.4em !important;
+    /* font-weight: 500; */
 
     padding: 0;
     white-space: nowrap;
